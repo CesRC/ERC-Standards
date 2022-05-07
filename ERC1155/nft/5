@@ -1,7 +1,7 @@
 {
     "name": "Fortaleza",
     "description": "La Fortaleza es una estructura defensiva. Es basicamente un Castillo con mayor alcance, mayor capacidad de guarnicion y espacio de poblacion. Sin embargo, no se ven afectados por el Emplumado de Flechas y sus actualizaciones posteriores.",
-    "image": "ipfs://bafybeicfy56l6z3fupyilqiu3i7ipsi6f6vhtd4dmyhtftspcxtf4xkt3q/fortaleza.png",
+    "image": "https://ipfs.io/ipfs/QmdSTXGSpaUJ2N8MDADdJot2omf85ibmt7PBtz6a4Vht9R/fortaleza.png",
     "external_url": "https://www.ageofempires.com/",
     "attributes": [
         {

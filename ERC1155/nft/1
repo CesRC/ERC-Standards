@@ -1,7 +1,7 @@
 {
     "name": "Piedra",
     "description": "La piedra es uno de los recursos básicos. Es necesaria para la construccion de edificios defensivos, como torres y fortalezas, pero a veces tambien para desarrollar tecnologias y construir una Maravilla. Para obtener este recurso, los aldeanos deben trabajar en las canteras de piedra.",
-    "image": "ipfs://bafybeicfy56l6z3fupyilqiu3i7ipsi6f6vhtd4dmyhtftspcxtf4xkt3q/piedra.png",
+    "image": "https://ipfs.io/ipfs/QmdSTXGSpaUJ2N8MDADdJot2omf85ibmt7PBtz6a4Vht9R/piedra.png",
     "external_url": "https://www.ageofempires.com/",
     "attributes": [
         {

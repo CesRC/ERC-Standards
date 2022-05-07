@@ -1,7 +1,7 @@
 {
     "name": "Casa",
     "description": "La Casa es un edificio Civil en Age of Empires que provee cuatro de poblacion a los jugadores para crear mas unidades. Este edificio puede ser construido desde el inicio de la partida, pero solo puede ser construida por Aldeanos y necesita madera para construirse.",
-    "image": "ipfs://bafybeicfy56l6z3fupyilqiu3i7ipsi6f6vhtd4dmyhtftspcxtf4xkt3q/casa.png",
+    "image": "https://ipfs.io/ipfs/QmdSTXGSpaUJ2N8MDADdJot2omf85ibmt7PBtz6a4Vht9R/casa.png",
     "external_url": "https://www.ageofempires.com/",
     "attributes": [
         {

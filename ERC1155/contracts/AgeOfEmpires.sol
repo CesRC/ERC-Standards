@@ -33,15 +33,39 @@ contract AgeOfEmpires is
                 balanceOf(msg.sender, 0) >= 100,
                 "Not enough wood to build a fortress"
             );
+            require(
+                balanceOf(msg.sender, 1) >= 150,
+                "Not enough stone to build a fortress"
+            );
         } else if (id == 6) {
             require(
                 balanceOf(msg.sender, 0) >= 120,
-                "Not enough wood to build a fortress"
+                "Not enough wood to build a cathedral"
+            );
+            require(
+                balanceOf(msg.sender, 1) >= 180,
+                "Not enough stone to build a cathedral"
+            );
+            require(
+                balanceOf(msg.sender, 2) >= 50,
+                "Not enough copper to build a cathedral"
             );
         } else if (id == 7) {
             require(
                 balanceOf(msg.sender, 0) >= 140,
                 "Not enough wood to build a sanctuary"
+            );
+            require(
+                balanceOf(msg.sender, 1) >= 200,
+                "Not enough stone to build a sanctuary"
+            );
+            require(
+                balanceOf(msg.sender, 2) >= 100,
+                "Not enough copper to build a sanctuary"
+            );
+            require(
+                balanceOf(msg.sender, 3) >= 50,
+                "Not enough gold to build a sanctuary"
             );
         }
         _;
@@ -50,9 +74,9 @@ contract AgeOfEmpires is
     constructor(string memory _name)
         ERC1155(
             /* nft storage
-            "ipfs://{CID}/{id}" */
+            "ipfs://bafybeiatlk3xsofqa476cfkmohohmf2d5m7tbpibkp5yape2jgmic6enzy/{id}" */
             // pinata
-            "https://ipfs.io/ipfs/{CID}/{id}"
+            "https://ipfs.io/ipfs/QmVMf4t7d5DjfgdB9pwL6kBWowFxN7jaVxSxQRewSWkrgy/{id}"
         )
     {
         name = _name;
@@ -71,7 +95,7 @@ contract AgeOfEmpires is
         uint256 id,
         uint256 amount,
         bytes memory data
-    ) public onlyOwner enoughResources(id) {
+    ) public enoughResources(id) {
         _mint(account, id, amount, data);
     }
 
